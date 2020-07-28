@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rincon Hogareño</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet"  href="cajas.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header>
+		<div id="marca">
+			<h1>Rincon Hogareño</h1>
+		</div>
+		<nav id="botonera">
+			<ul>
+				<li><a href="#HOME">HOME</a></li>
+				<li><a href="#NOSOTROS">NOSOTROS</a></li>
+				<li><a href="#MENU">MENU</a></li>
+				<li><a href="#CONTACTO">CONTACTO</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="HOME"> 
+		<div id="imgen">
+			<img src="RINCON HOGAREÑO.png"  >			
+		</div>
+	</section>
+	<section id="NOSOTROS">
+		<article id="txt_izq">
+			<h2>
+				 En Rincon Hogareño Encontraras:
+			</h2>
+			<p>
+				 Platos especializados en Mariscos ,
+				cazuelas , porotos , pescado frito , asados,
+				pollo al jugo , fideos con salsa bolognesa ,
+				humitas. A su vez podras elegir por cada plato  una variedad de acompañamiento : desde ensaladas
+				a la chilena , pure , arroz y papas fritas. </p>
+
+				 <p> Cada plato tiene una dedicacion unica ya que todas las elaboraciones son de manera casera,para dar un mejor sabor al paladar de nuestro cliente. 
+
+			
+			</p>
+
+			<h3>Si estas listo "Juega"</h3>
+			<p><a href="#NOSOTROS" onclick="juego()">Jugar</a></p>
+			<p id="ganador_juego" style="display: none;">Ganaste un descuento de 5 % en nuestro local!¡>
+				
+		</article>
+		<div id="img_der">
+			<img src="chef.png"  >
+		</div>
+	</section>
+	<section id="Mas">
+		<article id="txt_titulo">
+			<h4>EQUIPO (Presionalos y veras)</h4> 
+		</article>
+		
+		<nav id="contacto2">
+			<ul>
+				<li><a href="#contacta2" onclick="mostrar('info_javier')">Dueño: Javier C</a></li>
+				<li><a href="#contacta2" onclick="mostrar('info_Filippo')">Chef: Filippo B</a></li>
+				<li><a href="#contacta2" onclick="mostrar('info_Leandra')">Marketing: Leandra S</a></li>
+				<li><a href="#contacta2" onclick="mostrar('info_Fernando')">PaginaWeb: Fernando C </a></li>
+			</ul>
+		</nav>
+		<div id="info_contacto2">
+
+			<article class="info" id="info_javier" style="display: none;">
+				<img src="Javier.jpg">
+				<h3> Javier Carrasco</h3>
+				<P> !Sus esfuerzos se ven reflejados en todo ambito del restorant , desde trabajadores hasta clientes recomiendan el local Gracias a su forma de ser con la que llega hacia los demas¡  
+			</article>
+			<article class="info" id="info_Filippo" style="display: none;">
+				<img src="Filippo.jpg">
+				<h3>Filippo Balbontin</h3>
+				<p> !Con su gran experiencia en indefinidos restoranes,por sus cursos en el extranejero cada plato tiene tiene un sabor unico ya que nos trae toda su sabidura al restorant¡</p>
+			</article>
+			<article class="info" id="info_Leandra" style="display: none;">
+				<img src="Leandra.png">
+				<h3>Leandra Seltzer</h3>
+				<p>!Desde sus agencias de Marketing ,ella nos enseña todas las tecnicas y estudios que tienen como objetivo mejorar la comercialización del producto.Unica en la empresa¡ </p>
+			</article>
+			<article class="info" id="info_Fernando" style="display: none;">
+				<img src="Fernando.jpg">
+				<h3>Fernando Carrasco</h3>
+				<p> !Si deseas expandirte , necesitas de una buena pagina web, desde su simplifidad en los codigos para estar numero 1 en google y por otro lado diseñando todo a medida del cliente¡</p>
+			</article>
+
+        </div>
+	</section>
+	<section id="MENU">
+		<div id="img_izq">
+			<img src="humita.jpeg">
+		</div>
+		<article id="txt_der">
+			<p> Humita con ensalada a la chilena </p>
+			<p> Plato tipico de nuestra casa , el cual esta echo con choclo ,acompañado de una rica ensalada a la chilena , la cual lleva cebolla , tomate , pimenton verde y aji.</p>
+		</article>
+		<div id="img_izq2">
+			<img src="mariscos.jpeg"  >
+		</div>
+		<article id="txt_der2">
+			<p> Mariscal </p>
+			<p> Es un plato elaborado con los mariscos de la zona , lleva almejas , machas , papas cortadas en cubos , cebolla y cilantro , el acompañamiento puede ser una ensalada mixta , que se compone de beterraga , tomate , lechuga y repollo .</p>
+		</article>
+		<div id="img_izq3">
+			<img src="pescadofrito.jpeg" >
+		</div>
+		<article id="txt_der3">
+			<p> Pescado Frito con Pure </p>
+			<p> El plato es un pescado ( reineta ) tambien de la zona , el cual es sazonado en huevo con aliños para posteriormente ir al pan rayado y para finalizar al aceite . Su acompañamiento es un pure casero a la manteca con la cantidad justa de leche. </p>
+		</article>
+	</section>
+	<section id="CONTACTO">
+		<img src="rincon.jpeg"  >
+	</section>
+	<footer>
+		<div id="redessociales">
+			<img src="red.png" >
+
+		</div>
+		<article id="txt_izq1">
+			<p>Esta pagina fue echa por:</p>
+			<p> Fernando Carrasco </p>
+			
+		</article>
+	</footer>
+
+	<script type="text/javaScript" src="JavaScript.js"></script>
+
+</body>
+</html>

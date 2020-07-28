@@ -1,0 +1,495 @@
+body {
+	font-family: verdana;
+}
+header , section , footer {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+header{
+	height: 50px;
+	background-color: #d4c54e;
+	margin-bottom: 10px;
+}
+#marca {
+	width: 250px ;
+	height: 50px ;
+	background-color: #d4c54e;
+	float: left;
+}
+h1 {
+	margin-top: 10px;
+	font-size: 25px;
+	padding-left: 8px;
+	color: #ffffff;
+}
+#botonera {
+	width: 400px;
+	height: 50px;
+	background-color: #d4c54e;
+	float: right;
+}
+
+
+#contacto2 {
+	width: 960px;
+	height: 80px;
+
+	
+}
+#botonera ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#contacto2 ul {
+	margin: 0;
+	padding: 20;
+	list-style-type: none;
+
+}
+
+#botonera ul li , #contacto2 ul li {
+	display: inline;
+}
+#botonera ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold; 
+	padding: 15px 5px ;
+	display: inline-block;
+}
+
+#contacto2 ul li a {
+
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold; 
+	padding: 10px 10px ;
+	display: inline-block;
+}
+#botonera ul li a:hover {
+	color: #e3e1d5;
+}
+#contacto2 ul li a:hover {
+	color: #faf20a;
+}
+#HOME{	
+	height: 700px;
+	background-color: #000000;
+
+}
+#imgen img{
+	width: 100%;
+}
+#NOSOTROS{
+
+	height: 500px;
+	background-color: #615a44;
+	margin-top: 5px;
+	
+}
+
+#txt_izq {
+	width: 622px;
+	height: 450px;
+	background-color: #615a44;
+	float: left;
+	padding: 85px;
+	box-sizing: border-box;
+}
+h2 {
+	text-align: center;
+	color: #bea46c;
+}
+p {
+	color: #ffffff
+}
+#img_der img {
+	width: 322px;
+	height: 500px;
+	background-color: #8f0091;
+	float: right;
+}
+
+#Mas {
+	height: 680px;
+	background-color: #615a44;
+	margin-top: 0px;
+
+}
+
+h4 {
+	text-align: center;
+	color: #bea46c;
+	
+}
+
+
+.info {
+
+	width: 160px;
+	height: 200px;
+	float: left;
+	background: #d4c54e;
+	margin: 35px;
+	text-align: left;
+	
+}
+
+.info img {
+	height:  100%;
+}
+
+
+#MENU{
+	height: 620px;
+	background-color: #ffffff;
+	margin-top: 5px;
+}
+#img_izq img {
+	width: 350px;
+	height: 200px;
+	background-color: #fcff4a; 
+	float: left;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+#txt_der {
+	width: 600px;
+	height: 200px;
+	background-color: #615a44;
+	float: right;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-align: center;	
+}
+#img_izq2 img {
+	width: 350px;
+	height: 200px;
+	background-color: #fcff4a; 
+	float: left;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+#txt_der2 {
+	width: 600px;
+	height: 200px;
+	background-color: #615a44;
+	float: right;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+#img_izq3 img {
+	width: 350px;
+	height: 200px;
+	background-color: #fcff4a; 
+	float: left;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+#txt_der3 {
+	width: 600px;
+	height: 200px;
+	background-color: #615a44;
+	float: right;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+#CONTACTO img{
+	width: 960px;
+	height: 400px ;
+	background-color: #615a44;
+}
+footer {
+	height: 150px;
+	background-color: #d4c54e;
+	margin-top: 8px;
+}
+#redessociales img{
+	height: 60px;
+	width: 300px;
+	background-color:#00186e;
+	float:right;
+}
+#txt_izq1 {
+	text-align: center;
+	padding:20px;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+	header , section , footer {
+	width: 580px;
+}
+#marca {
+	width: 150px ;	
+}
+
+h1 {
+	margin-top: 3px;
+	font-size: 19px;
+	padding-left: 8px;
+}
+#botonera {
+	width: 400px;
+}
+
+#HOME{
+
+	height: 423px;
+	background-color: #000000;
+}
+#imgen img{
+	width: 100%;
+}
+#NOSOTROS{
+    height: 520px;
+}
+#txt_izq {
+	width: 280px;
+	height: 450px;
+	padding: 10px;
+	padding-left: 25px;	
+}
+
+#img_der img {
+	width: 275px;
+	height: 520px;
+}
+
+#contacto2 {
+	width: 550px;
+	
+  }
+	#contacto2 ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+  }
+
+  #contacto2 ul li a {
+
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold; 
+	padding: 2 ;
+	display: inline;
+}
+
+#Mas {
+	height: 680px;
+	background-color: #615a44;
+	margin-top: 0px;
+
+}
+
+h4 {
+	text-align: center;
+	color: #bea46c;
+	
+}
+
+
+.info {
+
+	width: 120px;
+	height: 150px;
+	float: left;
+	background: #d4c54e;
+	margin: 10px;
+	text-align: justify-all;
+
+	
+}
+
+.info img {
+	height:  100%;
+}
+
+
+
+#menu {
+	height: 750px;	
+}
+#img_izq img {
+	width: 300px;
+	height: 250px;
+}
+#txt_der {
+	width: 280px;
+	height: 250px;	
+}
+#img_izq2 img {
+	width: 300px;
+	height: 250px;
+}
+#txt_der2 {
+	width: 280px;
+	height: 250px;
+}
+#img_izq3 img {
+	width: 300px;
+	height: 250px;
+}
+#txt_der3 {
+	width: 280px;
+	height: 250px;
+}
+#CONTACTO img{
+	width: 580px;
+	height: 400px ;
+}
+footer {
+	height: 150px;
+	background-color: #d4c54e;
+	margin-top: 8px;
+}
+#redessociales img{
+	height: 60px;
+	width: 150px;
+	background-color:#00186e;
+	float:right;
+}
+#txt_izq1 {
+	text-align: center;
+	padding:20px;
+}
+}
+
+@media all and (min-width: 350px) and (max-width: 599px){
+
+	header , section , footer {
+	width: 340px;
+}
+#marca {
+	width: 50px ;	
+}
+
+h1 {
+	margin-top: 10px;
+	font-size: 13px;
+	padding-left: 8px;
+}
+#botonera {
+	width: 260px;
+	font-size: 10px;
+}
+#HOME{
+	height: 245px;
+}
+#imgen img{
+	width: 100%;
+}
+#NOSOTROS{
+    height: 850px;
+}
+#txt_izq {
+	width: 340px;
+	height: 450px;
+	padding: 3px;
+	padding-left: 35px;
+	
+}
+#img_der img {
+	width: 340px;
+	height: 400px;
+}
+
+
+#contacto2 {
+	width: 550px;
+	height: px;
+}
+	#contacto2 ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+  }
+
+
+  #contacto2 ul li a {
+
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold; 
+	padding: 2 ;
+	display: block;
+	text-align: justify;
+}
+
+#Mas {
+	height: 2400px;
+	background-color: #615a44;
+	margin-top: 0px;
+
+}
+
+h4 {
+	text-align: center;
+	color: #bea46c;
+	
+}
+
+
+.info {
+
+	width: 140px;
+	height: 160px;
+	
+	background: #d4c54e;
+	margin: 185px;
+	text-align: left;
+
+	
+}
+
+.info img {
+	height:  100%;
+}
+
+#MENU{
+	height: 1290px;	
+}
+#img_izq img {
+	width: 340px;
+	height: 250px;
+}
+#txt_der {
+	width: 340px;
+	height: 150px;	
+}
+#img_izq2 img {
+	width: 340px;
+	height: 250px;
+}
+#txt_der2 {
+	width: 340px;
+	height: 180px;
+
+}
+#img_izq3 img {
+	width: 340px;
+	height: 250px;
+}
+#txt_der3 {
+	width: 340px;
+	height: 180px;
+}
+#CONTACTO img{
+	width: 100%;
+	height: 200px ;
+}
+#redessociales img{
+	height: 30px;
+	width: 100px;
+	float:right;
+}
+#txt_izq1 {
+	text-align: center;
+	
+}
+}
+}
